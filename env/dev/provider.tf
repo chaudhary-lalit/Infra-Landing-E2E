@@ -1,8 +1,8 @@
 terraform {
   required_version = ">= 1.0.0"
   backend "azurerm" {
-    resource_group_name = "rg-tfstate-rahul"
-    storage_account_name = "rahulstgact02"
+    resource_group_name = "rg-tfstate-lalit"
+    storage_account_name = "lalitstgact02"
     container_name = "tfstate"
     key ="dev_state.tfstate"
   }
